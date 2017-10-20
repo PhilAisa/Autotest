@@ -99,7 +99,7 @@ public class TestHelper {
             $(By.xpath("//div[contains(@class,'x-progress-bar')]//div[text()='Сохранение...']")).should(visible);
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         } else if ($(By.xpath("//span[text()='Сервисные контракты']")).exists()) {
-            $(By.xpath("//span[text()='Сервисные контракты']")).should(visible);
+            $(By.xpath("//span[text()='Сервисные контракты']")).click();
         }
     }
 
